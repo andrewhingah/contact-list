@@ -5,7 +5,7 @@ const Contacts = ({ contacts }) => {
     <div>
       <center>
         <h1>Contact List</h1>
-      </center>
+      
       {contacts.map(contact => (
         <div className="card">
           <div className="card-body">
@@ -15,6 +15,7 @@ const Contacts = ({ contacts }) => {
           </div>
         </div>
       ))}
+      </center>
     </div>
   );
 };
